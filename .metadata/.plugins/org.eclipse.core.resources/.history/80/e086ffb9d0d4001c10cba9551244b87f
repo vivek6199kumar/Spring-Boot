@@ -1,0 +1,19 @@
+package com.security.service;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.security.model.User;
+
+public class UserService {
+
+	List<User> list = new ArrayList<>();
+
+	
+	public UserService() {
+
+		list.add(new User("vivek","host","vivek@gmail.com"));
+		
+	}
+
+}

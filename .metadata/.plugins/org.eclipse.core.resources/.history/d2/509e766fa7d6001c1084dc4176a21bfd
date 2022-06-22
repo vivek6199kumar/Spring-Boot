@@ -1,0 +1,23 @@
+package com.security.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.security.dao.UserRepository;
+import com.security.model.CustomerDetails;
+
+@Service
+public class CustomerDetailsService {
+
+	@Autowired
+	private UserRepository repository;
+
+	public void addCustomer(CustomerDetails cust)
+	{
+		this.repository.save(cust);
+		
+	}
+
+}
+
+

@@ -1,0 +1,32 @@
+{"properties": [
+  {
+    "name": "eureka.instance.hostnane",
+    "type": "java.lang.String",
+    "description": "A description for 'eureka.instance.hostnane'"
+  },
+  {
+    "name": "cloud.gateway.routes",
+    "type": "java.lang.String",
+    "description": "A description for 'cloud.gateway.routes'"
+  },
+  {
+    "name": "cloud.gateway.-id",
+    "type": "java.lang.String",
+    "description": "A description for 'cloud.gateway.-id'"
+  },
+  {
+    "name": "cloud.gateway.uri",
+    "type": "java.lang.String",
+    "description": "A description for 'cloud.gateway.uri'"
+  },
+  {
+    "name": "cloud.gateway.predicate",
+    "type": "java.lang.String",
+    "description": "A description for 'cloud.gateway.predicate'"
+  },
+  {
+    "name": "cloud.-id",
+    "type": "java.lang.String",
+    "description": "A description for 'cloud.-id'"
+  }
+]}

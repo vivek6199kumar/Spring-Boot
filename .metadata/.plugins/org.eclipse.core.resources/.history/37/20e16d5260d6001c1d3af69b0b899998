@@ -1,0 +1,14 @@
+package com.security.dao;
+
+import java.util.List;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
+
+import com.security.model.User;
+
+public interface UserRepository extends JpaRepository<User, String> {
+
+	public User findByUsername(String username);
+
+}

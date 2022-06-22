@@ -1,0 +1,5 @@
+{"properties": [{
+  "name": "eureka.instance.hostnane",
+  "type": "java.lang.String",
+  "description": "A description for 'eureka.instance.hostnane'"
+}]}
